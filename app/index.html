@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <title>amis app 模式</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link type="image/x-icon" rel="shortcut icon" href="./static/favicon.png" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />    
+        <link rel="stylesheet" href="/amis/pkg/style_204b68e.css" />
+    <link rel="stylesheet" href="/amis/pkg/npm_4845589.css" />
+    <style>
+      .app-wrapper,
+      .schema-wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+        <script type="text/javascript">var theme = localStorage.getItem('amis-theme') || 'cxd';
+if (theme === 'default') {
+    theme = 'cxd';
+}
+// 非 IE 模式
+if (window.navigator.userAgent.indexOf('Trident') === -1) {
+    document.write("<link rel=\"stylesheet\" title=\"ang\" ".concat(theme !== 'ang' ? 'disabled' : '', "  href=\"").concat('/amis/scss/themes/ang_a506589.css', "\" />"));
+    document.write("<link rel=\"stylesheet\" title=\"cxd\" ".concat(theme !== 'cxd' ? 'disabled' : '', " href=\"").concat('/amis/scss/themes/cxd_ef44efb.css', "\" />"));
+    document.write("<link rel=\"stylesheet\" title=\"dark\" ".concat(theme !== 'dark' ? 'disabled' : '', " href=\"").concat('/amis/scss/themes/dark_ddb9821.css', "\" />"));
+    document.write("<link rel=\"stylesheet\" title=\"antd\" ".concat(theme !== 'antd' ? 'disabled' : '', " href=\"").concat('/amis/scss/themes/antd_b62dd04.css', "\" />"));
+}
+else {
+    document.write("<link rel=\"stylesheet\" title=\"ang\" ".concat(theme !== 'ang' ? 'disabled' : '', "  href=\"").concat('/amis/scss/themes/ang-ie11_85c9265.css', "\" />"));
+    document.write("<link rel=\"stylesheet\" title=\"cxd\" ".concat(theme !== 'cxd' ? 'disabled' : '', " href=\"").concat('/amis/scss/themes/cxd-ie11_31bf63b.css', "\" />"));
+    document.write("<link rel=\"stylesheet\" title=\"dark\" ".concat(theme !== 'dark' ? 'disabled' : '', " href=\"").concat('/amis/scss/themes/dark-ie11_88f383d.css', "\" />"));
+    document.write("<link rel=\"stylesheet\" title=\"antd\" ".concat(theme !== 'antd' ? 'disabled' : '', " href=\"").concat('/amis/scss/themes/antd-ie11_71badb8.css', "\" />"));
+}
+</script>
+    
+<link rel="stylesheet" href="/amis/scss/helper_bea49fb.css" />  </head>
+
+  <body>
+    <div id="root" class="app-wrapper"></div>  
+<script src="/amis/pkg/npm_f084432.js"></script>
+<script type="text/javascript" src="/amis/pkg/examples/app/index.html_map_288ba85.js"></script>
+<script type="text/javascript" src="/amis/pkg/app_8440973.js"></script>
+<script type="text/javascript" src="/amis/pkg/rest_38af568.js"></script>
+<script type="text/javascript">
+      /* @require examples/app/index.jsx 标记为同步依赖，提前加载 */
+      amis.require(['7d8eb4e'], function (app) {
+        var initialState = {};
+        app.bootstrap(document.getElementById('root'), initialState);
+      });
+    </script>
+</body>
+</html>
